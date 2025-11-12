@@ -39,6 +39,12 @@ const nextConfig: NextConfig = {
         hostname: 'sonitasv.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.stack.imgur.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
