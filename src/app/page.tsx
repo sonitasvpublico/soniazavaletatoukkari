@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Header from '@/components/page/header';
 import ActionButtons from '@/components/page/action-buttons';
 import AboutMe from '@/components/page/about-me';
-import Contact from '@/components/page/contact';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Home() {
@@ -32,12 +31,6 @@ export default function Home() {
       <div id="about" className="w-full bg-white text-black">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <AboutMe />
-        </div>
-      </div>
-
-      <div id="contact" className="w-full bg-secondary/50 border-t border-border">
-         <div className="container mx-auto px-4 py-16 md:py-24">
-          <Contact />
         </div>
       </div>
 

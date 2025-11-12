@@ -41,16 +41,6 @@ export const servicesData: Service[] = [
     icon: Palette,
   },
   {
-    title: 'IA TOOLS\' REVIEW',
-    description: [
-      'I test and review the latest AI tools on my YouTube channel.',
-      'Discover insights and practical tips to leverage artificial intelligence effectively.',
-    ],
-    ctaText: 'Watch on YouTube',
-    ctaLink: 'https://www.youtube.com/@sonitasv',
-    icon: Youtube,
-  },
-  {
     title: 'CUSTOMISED ANIMATIONS',
     description: [
       'Turn your favourite photo into a fun and unique cartoon portrait.',
@@ -83,7 +73,7 @@ export const portfolioData = {
     profileImage: 'https://sonitasv.com/wp-content/uploads/2025/08/SonitaSV-Media-kit.pdf' 
   },
   contact: {
-    email: 'sonitasv@gmail.com',
+    email: 'contact@sonitasv.com',
     socials: [
       {
         name: 'LinkedIn',
