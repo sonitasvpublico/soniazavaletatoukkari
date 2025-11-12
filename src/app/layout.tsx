@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Sonia Zavaleta Toukkari',
   description: 'QA Specialist & UX/UI Expert. Crafting flawless digital experiences.',
   icons: {
-    icon: 'https://sonitasv.com/wp-content/uploads/2025/11/logo-practice.png',
+    icon: 'https://i.stack.imgur.com/3o83k.png',
   },
 };
 
