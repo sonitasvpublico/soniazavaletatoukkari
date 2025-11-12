@@ -5,12 +5,6 @@
       "description": "Abstract background image for the hero section",
       "imageUrl": "https://i.stack.imgur.com/3o83k.png",
       "imageHint": "abstract background"
-    },
-    {
-      "id": "profile-picture",
-      "description": "A profile picture for the hero section",
-      "imageUrl": "https://storage.googleapis.com/aifirebase/images/LzT4bW4Y5lZzV4Y1z4E4/profile.png",
-      "imageHint": "woman portrait"
     }
   ]
 }
