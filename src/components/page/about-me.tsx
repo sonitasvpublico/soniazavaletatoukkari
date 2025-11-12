@@ -24,7 +24,7 @@ export default function AboutMe() {
       </div>
       <div className="md:w-1/2 w-full">
         <h2 className="font-headline text-4xl md:text-5xl font-bold mb-4">
-          About Me
+          About
         </h2>
         <h3 className="text-2xl text-primary font-semibold mb-6">{title}</h3>
         {description.map((paragraph, index) => (
