@@ -4,20 +4,20 @@ import { Palette, TestTubeDiagonal, WandSparkles } from 'lucide-react';
 
 const serviceCategories = [
   {
-    title: 'DESIGN & USER EXPERIENCE',
-    services: ['UX/UI DESIGN', 'APP STORE CREATIVES']
-  },
-  {
     title: 'QUALITY & TESTING',
     services: ['MANUAL TEST', 'AI TOOLS REVIEW']
   },
   {
-    title: 'BRAND & CONTENT',
-    services: ['MEDIA KIT']
+    title: 'DESIGN & USER EXPERIENCE',
+    services: ['UX/UI DESIGN', 'APP STORE CREATIVES']
   },
   {
     title: 'FULL PRODUCT DEVELOPMENT',
     services: ['FROM CONCEPT TO MVP']
+  },
+  {
+    title: 'BRAND & CONTENT',
+    services: ['MEDIA KIT']
   }
 ];
 
