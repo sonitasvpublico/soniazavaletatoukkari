@@ -1,4 +1,4 @@
-import { Download, Eye, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram } from 'lucide-react';
+import { Download, Eye, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram, TestTubeDiagonal, WandSparkles } from 'lucide-react';
 import type { ElementType } from 'react';
 
 export interface Service {
@@ -28,7 +28,7 @@ export const servicesData: Service[] = [
     ],
     ctaText: 'Free Testing Guide',
     ctaLink: 'https://sonitasv.com/wp-content/uploads/2025/05/Manual-Tester-–-Free-Summary-Learning-Outline-.pdf',
-    icon: Eye,
+    icon: TestTubeDiagonal,
   },
   {
     title: 'UX/UI DESIGN',
@@ -51,13 +51,14 @@ export const servicesData: Service[] = [
     icon: Smartphone,
   },
   {
-    title: 'MOBILE APP DEVELOPMENT',
+    title: 'AI TOOLS REVIEW',
     description: [
-      'I turn ideas into fully functional Android and iOS apps — from concept to launch.',
+        'Curious about an AI tool? I can test it for you and provide a complete review.',
+        'I will analyze its functionality, usability, and give you a detailed report on its performance.'
     ],
-    ctaText: 'Check Sample',
-    ctaLink: 'https://sonitasv.com/wp-content/uploads/2025/05/SonitaSV-waving.mp4',
-    icon: Smartphone,
+    ctaText: 'Request a Review',
+    ctaLink: 'mailto:contact@sonitasv.com',
+    icon: WandSparkles,
   },
 ];
 
