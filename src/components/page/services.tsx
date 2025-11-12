@@ -12,7 +12,7 @@ const serviceCategories = [
     services: ['UX/UI DESIGN']
   },
   {
-    title: 'App development',
+    title: 'APP DEVELOPMENT',
     services: ['FROM CONCEPT TO MVP']
   },
   {
