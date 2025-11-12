@@ -1,4 +1,4 @@
-import { Download, Eye, Palette, Youtube, Star, Sparkles } from 'lucide-react';
+import { Download, Eye, Palette, Youtube, Star, Sparkles, Smartphone } from 'lucide-react';
 import type { ElementType } from 'react';
 
 export interface Service {
@@ -61,13 +61,12 @@ export const servicesData: Service[] = [
     icon: Star,
   },
   {
-    title: 'CUSTOMISED ANIMATIONS',
+    title: 'MOBILE APP DEVELOPMENT',
     description: [
-      'Turn your favourite photo into a fun and unique cartoon portrait.',
-      'Give me your idea and I can create it for you ✨✨✨',
+      'I turn ideas into fully functional Android and iOS apps — from concept to launch.',
     ],
-    ctaText: 'Check Samples',
+    ctaText: 'Check Sample',
     ctaLink: 'https://sonitasv.com/wp-content/uploads/2025/05/SonitaSV-waving.mp4',
-    icon: Sparkles,
+    icon: Smartphone,
   },
 ];
