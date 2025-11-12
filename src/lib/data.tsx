@@ -50,7 +50,7 @@ export const servicesData: Service[] = [
       'It includes my bio, brand assets, statistics, and collaboration options for your convenience.',
     ],
     ctaText: 'Download Kit',
-    ctaLink: 'https://sonitasv.com/wp-content/uploads/2025/08/SonitaSV-Media-kit.pdf',
+    ctaLink: 'https://sonitasv.com/wp-content/uploads/2025/11/Sonia-Toukkari-.pdf',
     icon: Download,
   },
   {
