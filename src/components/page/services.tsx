@@ -14,6 +14,10 @@ const serviceCategories = [
   {
     title: 'BRAND & CONTENT',
     services: ['MEDIA KIT']
+  },
+  {
+    title: 'FULL PRODUCT DEVELOPMENT',
+    services: ['FROM CONCEPT TO MVP']
   }
 ];
 

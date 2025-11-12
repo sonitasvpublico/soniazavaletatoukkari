@@ -47,7 +47,7 @@ export const servicesData: Service[] = [
       'I design mockups, screenshots, and all the graphic materials to make your app stand out.',
     ],
     ctaText: 'See Examples',
-    ctaLink: 'https://www.canva.com/design/DAG1rPR0ugg/5-N5ebMQbCu7bLYCGoCsCw/view?utm_content=DAG1rPR0ugg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0321e0c5d9',
+    ctaLink: 'https://www.canva.com/design/DAGouoqKjGE/q9jYgsxLHMSGLWzstfAlyg/watch?utm_content=DAGouoqKjGE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6d75b51bdc',
     icon: GalleryThumbnails,
   },
   {
@@ -60,6 +60,16 @@ export const servicesData: Service[] = [
     ctaLink: 'mailto:contact@sonitasv.com',
     icon: WandSparkles,
   },
+  {
+    title: 'FROM CONCEPT TO MVP',
+    description: [
+      'I turn your idea into a functional app, ready for user testing.',
+      'Covering UX/UI design, initial development, and app store preparation to deliver a market-ready product.'
+    ],
+    ctaText: 'Discuss a Project',
+    ctaLink: 'mailto:contact@sonitasv.com',
+    icon: Smartphone,
+  }
 ];
 
 export const portfolioData = {
