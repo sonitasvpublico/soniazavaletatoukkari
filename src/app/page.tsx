@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div id="analyzer" className="w-full bg-gray-50 text-black">
+      <div id="analyzer" className="hidden w-full bg-gray-50 text-black">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <PortfolioAnalyzer />
         </div>
