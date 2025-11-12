@@ -6,7 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function AboutMe() {
   const { youtubeChannel } = portfolioData.about;
-  const { email } = portfolioData.contact;
+  const { email, socials } = portfolioData.contact;
   const aboutImage = PlaceHolderImages.find(p => p.id === 'about-me-image');
   const newDescription = [
     "Hi! I'm Sonia \"SonitaSV\" — a product designer passionate about creating digital experiences that look great and work seamlessly.",
@@ -37,6 +37,28 @@ export default function AboutMe() {
             {paragraph}
           </p>
         ))}
+
+        <div className="flex flex-wrap items-center gap-4 my-6">
+            {socials.map((social) => (
+              <Button
+                key={social.name}
+                variant="outline"
+                size="icon"
+                className="bg-card-foreground/5 hover:bg-card-foreground/10 border-card-foreground/20 text-foreground/80 hover:text-primary transition-colors duration-300"
+                asChild
+              >
+                <a
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.name}
+                >
+                  <social.icon className="h-5 w-5" />
+                </a>
+              </Button>
+            ))}
+          </div>
+
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
           <Button asChild size="lg">
             <a href={`mailto:contact@sonitasv.com`}>
