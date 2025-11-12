@@ -1,4 +1,4 @@
-import { Download, GalleryThumbnails, Palette, Smartphone, TestTubeDiagonal, WandSparkles } from 'lucide-react';
+import { Download, GalleryThumbnails, Palette, Smartphone, TestTubeDiagonal, WandSparkles, Link, Coffee } from 'lucide-react';
 import type { ElementType, SVGProps } from 'react';
 
 // SVG Icon Components for Social Media
@@ -9,7 +9,7 @@ const LinkedInIcon = (props: SVGProps<SVGSVGElement>) => (
 );
 
 const InstagramIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" {...props}>
     <defs>
       <radialGradient id="insta-gradient" cx="0.3" cy="1.2" r="1.2">
         <stop offset="0" stopColor="#F58529" />
@@ -22,7 +22,7 @@ const InstagramIcon = (props: SVGProps<SVGSVGElement>) => (
 );
 
 const YouTubeIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" {...props}>
     <path fill="#FF0000" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M10,16.5V7.5L16,12L10,16.5Z" />
   </svg>
 );
@@ -30,22 +30,6 @@ const YouTubeIcon = (props: SVGProps<SVGSVGElement>) => (
 const GitHubIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-  </svg>
-);
-
-const BeaconsIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-    <path d="M12 10.5c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5zm0 4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
-    <path d="M16 5.5l-1.42 1.42c.8.81 1.29 1.88 1.4 3.08h2.02c-.15-2.09-1.09-3.95-2.58-5.38L16 5.5zM8 5.5l-1.42-1.42C5.09 5.55 4.15 7.41 4 9.5h2.02c.11-1.2.6-2.27 1.4-3.08L8 5.5z" />
-  </svg>
-);
-
-const BuyMeACoffeeIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
-    <path fill="#FFDD00" d="M12.75,2.001c-4.42,0-8,3.58-8,8c0,2.46,1.12,4.67,2.91,6.14l-2.66,4.78l5.22-2.31 C11.39,18.821,12.06,18.941,12.75,18.941c4.42,0,8-3.58,8-8C20.75,5.581,17.17,2.001,12.75,2.001z" />
-    <path fill="#000000" d="M13.88,12.331c-0.37-0.37-0.87-0.58-1.41-0.58c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h2v-2C14.46,13.201,14.25,12.701,13.88,12.331z" />
-    <path fill="#000000" d="M12.75,5.001c-3.31,0-6,2.69-6,6c0,1.5,0.56,2.88,1.49,3.95l0.22,0.25l-0.2,0.09c-0.74,0.33-1.39,0.78-1.92,1.3 l-0.09,0.09l0.09,0.09c0.52,0.52,1,0.97,1.3,1.92l0.09,0.2l0.09-0.2c0.27-0.57,0.61-1.09,1-1.52l0.23-0.26l-0.25-0.22 c-1.07-0.93-1.74-2.29-1.74-3.79c0-2.76,2.24-5,5-5s5,2.24,5,5c0,1.5-0.67,2.86-1.74,3.79l-0.25,0.22l0.23,0.26 c0.39,0.43,0.73,0.95,1,1.52l0.09,0.2l0.09-0.2c0.3-0.95,0.78-1.4,1.3-1.92l0.09-0.09l-0.09-0.09c-0.53-0.52-1.18-0.97-1.92-1.3 l-0.2-0.09l0.22-0.25c0.93-1.07,1.49-2.45,1.49-3.95C18.75,7.691,16.06,5.001,12.75,5.001z" />
   </svg>
 );
 
@@ -158,12 +142,12 @@ export const portfolioData = {
       {
         name: 'Beacons',
         url: 'https://beacons.ai/sonitasv',
-        icon: BeaconsIcon,
+        icon: Link,
       },
       {
         name: 'Buy Me a Coffee',
         url: 'https://buymeacoffee.com/sonitasv',
-        icon: BuyMeACoffeeIcon,
+        icon: Coffee,
       }
     ]
   }
