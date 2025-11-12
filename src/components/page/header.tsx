@@ -1,7 +1,7 @@
 
 export default function Header() {
   return (
-    <header className="mb-12 flex flex-col md:flex-row items-center justify-center gap-8">
+    <header className="mb-12 flex flex-col items-center justify-center gap-8">
       <div className="text-center">
         <h1 className="font-headline text-4xl font-bold md:text-5xl lg:text-6xl drop-shadow-lg">
           QA Specialist • UX/UI Expert

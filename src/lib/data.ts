@@ -1,4 +1,4 @@
-import { Download, Eye, Palette, Youtube, Star, Sparkles, Smartphone } from 'lucide-react';
+import { Download, Eye, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram } from 'lucide-react';
 import type { ElementType } from 'react';
 
 export interface Service {
@@ -51,14 +51,14 @@ export const servicesData: Service[] = [
     icon: Youtube,
   },
   {
-    title: 'MOCKUPS',
+    title: 'CUSTOMISED ANIMATIONS',
     description: [
-      'I create beautiful designs that showcase your app\'s functionality and appeal.',
-      'Enhance your presentations and attract more users with stunning visuals. Contact me for professional, tailored mockups!',
+      'Turn your favourite photo into a fun and unique cartoon portrait.',
+      'Give me your idea and I can create it for you ✨✨✨',
     ],
     ctaText: 'Check Samples',
     ctaLink: 'https://www.canva.com/design/DAGouoqKjGE/q9jYgsxLHMSGLWzstfAlyg/watch?utm_content=DAGouoqKjGE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6d75b51bdc',
-    icon: Star,
+    icon: Smartphone,
   },
   {
     title: 'MOBILE APP DEVELOPMENT',
@@ -70,3 +70,36 @@ export const servicesData: Service[] = [
     icon: Smartphone,
   },
 ];
+
+export const portfolioData = {
+  about: {
+    name: 'Sonia',
+    title: 'UX/UI Designer & QA Specialist',
+    description: [
+      "Hello! I'm Sonia, a passionate creator at the intersection of design and technology. With a keen eye for detail and a love for seamless user experiences, I specialize in UX/UI design and rigorous Quality Assurance testing.",
+      "My goal is to craft digital products that are not only beautiful and intuitive but also function flawlessly. Whether I'm designing a user-friendly interface, testing an application to perfection, or creating engaging content, I bring a blend of creativity and analytical precision to every project."
+    ],
+    youtubeChannel: 'https://www.youtube.com/@sonitasv',
+    profileImage: 'https://sonitasv.com/wp-content/uploads/2025/08/SonitaSV-Media-kit.pdf' 
+  },
+  contact: {
+    email: 'sonitasv@gmail.com',
+    socials: [
+      {
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/soniamztouk',
+        icon: Linkedin,
+      },
+      {
+        name: 'Instagram',
+        url: 'https://www.instagram.com/sonitasv',
+        icon: Instagram,
+      },
+      {
+        name: 'YouTube',
+        url: 'https://www.youtube.com/@sonitasv',
+        icon: Youtube,
+      },
+    ]
+  }
+};
