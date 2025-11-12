@@ -35,11 +35,11 @@ export default function Home() {
         </div>
       </div>
       
-      <div id="analyzer" className="w-full bg-secondary/50 border-t border-border">
+      {/* <div id="analyzer" className="w-full bg-secondary/50 border-t border-border">
          <div className="container mx-auto px-4 py-16 md:py-24">
           <PortfolioAnalyzer />
         </div>
-      </div>
+      </div> */}
 
       <footer className="w-full bg-card text-card-foreground py-6">
         <div className="container mx-auto text-center text-sm text-card-foreground/70">
