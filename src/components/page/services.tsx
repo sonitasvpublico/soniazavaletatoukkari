@@ -9,7 +9,7 @@ const serviceCategories = [
   },
   {
     title: 'DESIGN & USER EXPERIENCE',
-    services: ['UX/UI DESIGN', 'APP STORE CREATIVES']
+    services: ['UX/UI DESIGN']
   },
   {
     title: 'FULL PRODUCT DEVELOPMENT',

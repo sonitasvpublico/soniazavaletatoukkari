@@ -66,22 +66,11 @@ export const servicesData: Service[] = [
   {
     title: 'UX/UI DESIGN',
     description: [
-      'Looking for a friendly and intuitive design?',
-      'I create designs that transform your digital experience with interfaces that are both beautiful and functional.',
+      'I create designs that transform your digital experience, from beautiful interfaces to the stunning mockups and graphics needed for app stores.',
     ],
     ctaText: 'See Prototype',
-    ctaLink: 'https://www.figma.com/proto/folW3ayAZYFTQuO5kJ2GgT/Prototipo-Tienda-de-Bicicletas-SV?node-id=2-69&p=f&t=oYaBKlD7Jrupxr60-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A69',
+    ctaLink: 'https://blurry-label-12230468.figma.site',
     icon: Palette,
-  },
-  {
-    title: 'APP STORE CREATIVES',
-    description: [
-      'Need stunning visuals for the App Store and Google Play?',
-      'I design mockups, screenshots, and all the graphic materials to make your app stand out.',
-    ],
-    ctaText: 'See Examples',
-    ctaLink: 'https://www.canva.com/design/DAGouoqKjGE/q9jYgsxLHMSGLWzstfAlyg/watch?utm_content=DAGouoqKjGE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6d75b51bdc',
-    icon: GalleryThumbnails,
   },
   {
     title: 'AI TOOLS REVIEW',
