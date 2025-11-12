@@ -1,4 +1,4 @@
-import { Download, Eye, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram, TestTubeDiagonal, WandSparkles } from 'lucide-react';
+import { Download, GalleryThumbnails, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram, TestTubeDiagonal, WandSparkles } from 'lucide-react';
 import type { ElementType } from 'react';
 
 export interface Service {
@@ -41,14 +41,14 @@ export const servicesData: Service[] = [
     icon: Palette,
   },
   {
-    title: 'CUSTOMISED ANIMATIONS',
+    title: 'APP STORE CREATIVES',
     description: [
-      'Turn your favourite photo into a fun and unique cartoon portrait.',
-      'Give me your idea and I can create it for you ✨✨✨',
+      'Need stunning visuals for the App Store and Google Play?',
+      'I design mockups, screenshots, and all the graphic materials to make your app stand out.',
     ],
-    ctaText: 'Check Samples',
-    ctaLink: 'https://www.canva.com/design/DAGouoqKjGE/q9jYgsxLHMSGLWzstfAlyg/watch?utm_content=DAGouoqKjGE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6d75b51bdc',
-    icon: Smartphone,
+    ctaText: 'See Examples',
+    ctaLink: 'https://www.canva.com/design/DAG1rPR0ugg/5-N5ebMQbCu7bLYCGoCsCw/view?utm_content=DAG1rPR0ugg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0321e0c5d9',
+    icon: GalleryThumbnails,
   },
   {
     title: 'AI TOOLS REVIEW',
