@@ -8,7 +8,7 @@ const actions = [
     icon: <Github />,
   },
   {
-    href: "https://sonitasv.com/wp-content/uploads/2025/10/Sonia-M-Z-Toukkari-2025.pdf",
+    href: "https://www.canva.com/design/DAGHdMUC9lA/2lSiSJA_-wqROB6FLhzDlA/view?utm_content=DAGHdMUC9lA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h30ea1d3817",
     label: "Resume",
     icon: <FileText />,
   },
