@@ -5,6 +5,9 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: 'Sonia Zavaleta Toukkari',
   description: 'QA Specialist & UX/UI Expert. Crafting flawless digital experiences.',
+  icons: {
+    icon: 'https://sonitasv.com/wp-content/uploads/2025/11/logo-practice.png',
+  },
 };
 
 export default function RootLayout({
@@ -18,7 +21,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poiret+One&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://sonitasv.com/wp-content/uploads/2025/11/logo-practice.png" sizes="any" />
       </head>
       <body className="font-body antialiased">
         {children}
