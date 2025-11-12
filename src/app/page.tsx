@@ -3,6 +3,7 @@ import Header from '@/components/page/header';
 import ActionButtons from '@/components/page/action-buttons';
 import AboutMe from '@/components/page/about-me';
 import Services from '@/components/page/services';
+import Footer from '@/components/page/footer';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Home() {
@@ -41,11 +42,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="w-full bg-card text-card-foreground py-6">
-        <div className="container mx-auto text-center text-sm text-card-foreground/70">
-          <p>&copy; {new Date().getFullYear()} SonitaSV. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

@@ -1,4 +1,4 @@
-import { Download, GalleryThumbnails, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram, TestTubeDiagonal, WandSparkles } from 'lucide-react';
+import { Download, GalleryThumbnails, Palette, Youtube, Smartphone, Mail, Linkedin, Instagram, TestTubeDiagonal, WandSparkles, Github, Link, Coffee } from 'lucide-react';
 import type { ElementType } from 'react';
 
 export interface Service {
@@ -81,19 +81,19 @@ export const portfolioData = {
       "My goal is to craft digital products that are not only beautiful and intuitive but also function flawlessly. Whether I'm designing a user-friendly interface, testing an application to perfection, or creating engaging content, I bring a blend of creativity and analytical precision to every project."
     ],
     youtubeChannel: 'https://www.youtube.com/@sonitasv',
-    profileImage: 'https://sonitasv.com/wp-content/uploads/2025/08/SonitaSV-Media-kit.pdf' 
+    profileImage: 'https://sonitasv.com/wp-content/uploads/2024/02/photo_5807905737341515367_y.jpg' 
   },
   contact: {
     email: 'contact@sonitasv.com',
     socials: [
       {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/soniamztouk',
+        url: 'https://www.linkedin.com/in/soniazavaleta/',
         icon: Linkedin,
       },
       {
         name: 'Instagram',
-        url: 'https://www.instagram.com/sonitasv',
+        url: 'https://www.instagram.com/sonitasvpro',
         icon: Instagram,
       },
       {
@@ -101,6 +101,21 @@ export const portfolioData = {
         url: 'https://www.youtube.com/@sonitasv',
         icon: Youtube,
       },
+      {
+        name: 'GitHub',
+        url: 'https://github.com/sonitasvpublico',
+        icon: Github,
+      },
+      {
+        name: 'Beacons',
+        url: 'https://beacons.ai/sonitasv',
+        icon: Link,
+      },
+      {
+        name: 'Buy Me a Coffee',
+        url: 'https://buymeacoffee.com/sonitasv',
+        icon: Coffee,
+      }
     ]
   }
 };
