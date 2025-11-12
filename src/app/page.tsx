@@ -21,7 +21,7 @@ export default function Home() {
             data-ai-hint={heroBg.imageHint}
           />
         )}
-        <div className="relative z-10 flex min-h-[60vh] flex-col items-center justify-center bg-black/40 p-4 md:p-8">
+        <div className="relative z-10 flex min-h-[60vh] flex-col items-center justify-center bg-black p-4 md:p-8">
           <div className="container mx-auto flex flex-col items-center justify-center text-center text-white">
             <Header />
             <ActionButtons />
