@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div id="services" className="w-full bg-background">
+      <div id="services" className="w-full bg-black">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <Services />
         </div>
