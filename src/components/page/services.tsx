@@ -35,7 +35,7 @@ export default function Services() {
       <Accordion type="single" collapsible className="w-full" defaultValue="item-0">
         {serviceCategories.map((category, index) => (
           <AccordionItem value={`item-${index}`} key={category.title}>
-            <AccordionTrigger className="font-headline text-3xl font-semibold text-card-foreground hover:no-underline py-6">
+            <AccordionTrigger className="font-headline text-[1.8rem] md:text-3xl font-semibold text-card-foreground hover:no-underline py-6 text-left">
               {category.title}
             </AccordionTrigger>
             <AccordionContent>
