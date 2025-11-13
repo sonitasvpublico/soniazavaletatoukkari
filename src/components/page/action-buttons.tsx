@@ -4,7 +4,7 @@ import { Github, FileText, Briefcase } from "lucide-react";
 const actions = [
   {
     href: "https://github.com/sonitasvpublico",
-    label: "Github Samples",
+    label: "Github",
     icon: <Github />,
   },
   {
