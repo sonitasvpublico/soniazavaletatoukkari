@@ -24,7 +24,7 @@ const serviceCategories = [
 export default function Services() {
   return (
     <section>
-      <div className="text-center mb-12">
+      <div className="text-center mb-6">
         <h2 className="font-headline text-4xl md:text-5xl font-bold text-card-foreground">
           WHAT SHOULD WE BUILD TOGETHER?
         </h2>
