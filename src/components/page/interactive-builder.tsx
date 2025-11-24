@@ -10,7 +10,7 @@ const buildOptions = [
     title: "QA & Testing",
     icon: TestTubeDiagonal,
     toast: "Great choice! Let's ensure your app is bug-free.",
-    targetId: "services", // Scrolls to the main services section
+    targetId: "services",
   },
   {
     id: "dev",
