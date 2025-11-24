@@ -21,7 +21,7 @@ const actions = [
 
 export default function ActionButtons() {
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-sm sm:max-w-none">
+    <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-sm sm:max-w-none">
       {actions.map((action) => (
         <Button
           key={action.label}
