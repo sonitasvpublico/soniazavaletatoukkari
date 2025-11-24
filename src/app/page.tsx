@@ -5,7 +5,6 @@ import AboutMe from '@/components/page/about-me';
 import Services from '@/components/page/services';
 import Footer from '@/components/page/footer';
 import PortfolioAnalyzer from '@/components/page/portfolio-analyzer';
-import InteractiveBuilder from '@/components/page/interactive-builder';
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
         <div className="relative z-10 flex min-h-[60vh] flex-col items-center justify-center bg-black p-4 md:p-8">
           <div className="container mx-auto flex flex-col items-center justify-center text-center text-white">
             <Header />
-            <InteractiveBuilder />
             <ActionButtons />
           </div>
         </div>
