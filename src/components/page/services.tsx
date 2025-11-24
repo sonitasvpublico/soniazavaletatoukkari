@@ -32,7 +32,7 @@ export default function Services() {
           From concept to launch, I offer a range of services to bring your digital vision to life.
         </p>
       </div>
-      <Accordion type="single" collapsible className="w-full" defaultValue="item-0">
+      <Accordion type="single" collapsible className="w-full">
         {serviceCategories.map((category, index) => (
           <AccordionItem value={`item-${index}`} key={category.title}>
             <AccordionTrigger className="font-headline text-[1.8rem] md:text-3xl font-semibold text-card-foreground hover:no-underline py-6 text-left">
