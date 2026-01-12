@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Github, FileText, Briefcase } from "lucide-react";
 
@@ -8,7 +9,7 @@ const actions = [
     icon: <Github />,
   },
   {
-    href: "https://sonitasv.com/wp-content/uploads/2025/11/Sonia-Toukkari.pdf",
+    href: "https://sonitasv.com/wp-content/uploads/2026/01/Sonia-Toukkari.pdf",
     label: "Resume",
     icon: <FileText />,
   },
