@@ -9,7 +9,7 @@ const actions = [
     icon: <Github />,
   },
   {
-    href: "https://sonitasv.com/wp-content/uploads/2026/02/Sonia-Toukkari-2026.pdf",
+    href: "https://sonitasv.com/wp-content/uploads/2026/02/Sonia-Toukkari-2026-1.pdf",
     label: "Resume",
     icon: <FileText />,
   },
