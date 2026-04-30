@@ -9,7 +9,7 @@ export default function Footer() {
             href="/privacy-policy" 
             className="text-card-foreground/70 hover:text-card-foreground/70 cursor-default no-underline"
           >
-            &copy; {new Date().getFullYear()} SonitaSV. All rights reserved.
+            &copy; 2026 SonitaSV. All rights reserved.
           </Link>
         </p>
       </div>
