@@ -38,17 +38,22 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">4. Sharing Your Information</h2>
+            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">4. Data Retention</h2>
+            <p>User data, if any, is stored only for as long as necessary to provide the app’s functionality. Data stored locally on the user’s device remains until the user deletes it or uninstalls the app.</p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">5. Sharing Your Information</h2>
             <p>We do not share, sell, or disclose your email address to third parties unless required by law.</p>
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">5. Your Rights</h2>
+            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">6. Your Rights</h2>
             <p>You have the right to request access to, update, or delete your email address from our records. To do so, please contact us at contact@sonitasv.com.</p>
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">6. Updates to this Privacy Policy</h2>
+            <h2 className="text-xl font-bold text-foreground mt-8 mb-4">7. Updates to this Privacy Policy</h2>
             <p>We may update this policy periodically to reflect changes in our practices. Any changes will be posted on this page with an updated date.</p>
           </div>
 
